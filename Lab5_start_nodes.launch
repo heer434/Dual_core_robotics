@@ -1,0 +1,4 @@
+<launch>
+    <node name="publisher_node" pkg="robot_ie416" type="publisher.py" output="screen" launch-prefix="python3"/>
+    <node name="subscriber_node" pkg="robot_ie416" type="subcriber.py" output="screen" launch-prefix="python3"/>
+</launch>
